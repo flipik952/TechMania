@@ -4,5 +4,54 @@ h1{
 	font-size: 130px;
 }
 body{
-	background-color: rgba(0, 255, 191, 0.383);
+	background-color: rgba(9, 211, 160, 0.383);
+	font-family: "Iosevka Charon", monospace;
+	font-weight: 300;
+	font-style: normal;
+}
+h2{
+	font-style: italic;
+	text-align: center;
+	font-size: 100px;
+}
+.button-container {
+	display:flex;
+	gap: 20px;
+}
+.menu-btn {
+	padding: 15px 35px;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.Smartphones{
+	background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+	background: #f3f3f3;
+}
+.TVs {
+	background: #f3f3f3;
+}
+
+.Laptops {
+	background: #f3f3f3;
+}
+.footer{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(9, 211, 160, 0.383);
+}
+.section {
+	display: flex;
+	gap: 30;
+	flex-wrap: wrap;
 }
