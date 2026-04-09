@@ -33,14 +33,31 @@ h2{
 }
 .Smartphones{
 	background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
-	background: #f3f3f3;
+	background: #145762;
 }
-.TVs {
-	background: #f3f3f3;
+.Televisions {
+	background: #145762;
 }
-
+.Computers{
+	background: #145762;
+}
+.Monitors{
+	background: #145762;
+}
+.Tablets{
+	background: #145762;
+}
+.Mice{
+	background: #145762;
+}
+.Headphones{
+	background: #145762;
+}
 .Laptops {
-	background: #f3f3f3;
+	background: #145762;
+}
+.Consoles{
+	background: #145762;
 }
 .footer{
 	width: 100%;
@@ -54,4 +71,52 @@ h2{
 	display: flex;
 	gap: 30;
 	flex-wrap: wrap;
+}
+
+.tech_cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	height: 550px;
+	width: 300px;
+	border-radius: 10px;
+	background-color: rgb(154, 204, 204);
+}
+
+.card_image{    
+	height: 250px;
+    object-fit: contain;
+}
+
+.card_information {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.card_title {
+	font-size: 20px;
+	font-weight: bold;
+}
+.card_description{
+	font-size: 16px;
+}
+
+.card_price {
+	font-size: 25px;
+	font-weight: bold;
+}
+.card_button{
+	border-radius: 5px;
+	background-color: rgb(22, 80, 82);
+	color: #fff;
+	padding: 20px 30px;
+	width: 250px;
+	text-align: center;
 }
