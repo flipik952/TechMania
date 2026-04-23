@@ -4,7 +4,7 @@ h1{
 	font-size: 130px;
 }
 body{
-	background-color: rgba(9, 211, 160, 0.383);
+	background-color: rgba(9, 97, 211, 0.383);
 	font-family: "Iosevka Charon", monospace;
 	font-weight: 300;
 	font-style: normal;
@@ -16,6 +16,7 @@ h2{
 }
 .button-container {
 	display:flex;
+	justify-content: center;
 	gap: 20px;
 }
 .menu-btn {
@@ -65,7 +66,6 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(9, 211, 160, 0.383);
 }
 .section {
 	display: flex;
