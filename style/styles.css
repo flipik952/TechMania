@@ -4,10 +4,15 @@ h1{
 	font-size: 130px;
 }
 body{
-	background-color: rgba(9, 97, 211, 0.383);
+	
 	font-family: "Iosevka Charon", monospace;
 	font-weight: 300;
 	font-style: normal;
+	background-image: url('https://img.freepik.com/free-photo/abstract-blur-shopping-mall_1203-7930.jpg?semt=ais_hybrid&w=740&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 h2{
 	font-style: italic;
@@ -39,9 +44,7 @@ h2{
 .Televisions {
 	background: #145762;
 }
-.Computers{
-	background: #145762;
-}
+
 .Monitors{
 	background: #145762;
 }
@@ -57,9 +60,7 @@ h2{
 .Laptops {
 	background: #145762;
 }
-.Consoles{
-	background: #145762;
-}
+
 .footer{
 	width: 100%;
 	padding: 20px;
